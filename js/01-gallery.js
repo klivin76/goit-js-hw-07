@@ -32,6 +32,6 @@ function onGalleryContainerClick(e) {
 
 instance.show()
     } 
- 
+ console.log(galleryItems);
 
 
