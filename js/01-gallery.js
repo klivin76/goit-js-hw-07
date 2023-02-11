@@ -29,7 +29,6 @@ function onGalleryContainerClick(e) {
     const instance = basicLightbox.create(`
     <img src="${e.target.dataset.source}" width="800" height="600">
 `)
-
 instance.show()
     } 
  console.log(galleryItems);
